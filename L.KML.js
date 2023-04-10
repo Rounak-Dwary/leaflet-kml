@@ -416,6 +416,7 @@ L.KMLIcon = L.Icon.extend({
 	options: {
 		iconSize: [32, 32],
 		iconAnchor: [16, 16],
+		iconUrl:'https://png.pngtree.com/png-clipart/20191120/original/pngtree-map-location-marker-icon-in-red-png-image_5004115.jpg'
 	},
 	_setIconStyles: function (img, name) {
 		L.Icon.prototype._setIconStyles.apply(this, [img, name]);
